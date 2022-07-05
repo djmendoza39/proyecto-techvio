@@ -4,10 +4,28 @@ body,
 html {
   font-family: "Raleway", sans-serif;
 }
+li{
+  list-style: none;
+}
+
+small{
+  color: #0069D9;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
 
 .header {
     background: rgb(29,5,66);
-    background: linear-gradient(180deg, rgba(29,5,66,1) 0%, rgba(34,6,126,1) 61%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(180deg, rgba(29,5,66,1) 0%, rgba(34,6,126,1) 61%, rgb(1, 0, 25) 100%);
+}
+
+.navbar-toggler-icon{
+  background-color: rgba(241, 246, 252, 0.855);
+}
+
+img{
+  object-fit: cover;
 }
 .btn-header{
   background-color: #724ced;
@@ -57,15 +75,14 @@ a {
 
 /* seccion card */
 .card--estilos{
-    box-shadow: 0px 8px 17px 2px rgba(0,0,0,0.14) , 0px 3px 14px 2px rgba(0,0,0,0.12) , 0px 5px 5px -3px rgba(0,0,0,0.2) ;
-}
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2); }
 .bi{
-    color: #FF612C;
+    color: #0069D9;
     font-size: 2.2rem;
     font-weight: 400;
 }
 .card-link{
-    color: #FF612C !important;
+    color: #0069D9 !important;
     font-weight: 700;
 }
 .card-body h5{
@@ -110,4 +127,57 @@ figure{
 /* seccion expert */
 .seccion-expert * p{
   color: #724ced;
+}
+
+/* estilos entradas blog */
+.card-blog__title{
+  line-height: 2rem;
+  font-weight: bold;
+
+}
+
+.estilos-iconos{
+  color: #724ced;
+  font-size: .8rem;
+  margin-right:1rem ;
+  
+}
+/* / */
+
+/* seccion digital */
+.btn-digital{
+  background-color: #815ef2;
+  color: aliceblue;
+  width: 150px;
+  margin: .4rem;
+  
+}
+.btn-digital:hover{
+  background-color: #6d4fcc;
+  cursor:none;
+
+
+}
+
+/* footer */
+footer{
+  background-color: #1C1C23;
+  color:aliceblue
+}
+
+.estilo--blinea{
+  border-bottom: 1px solid rgba(212, 208, 208, 0.803);
+  margin-bottom: 1rem;
+  
+}
+
+.bi-contact{
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.footer-final{
+  width: 100%;
+  background-color: #070315d6;
+  height: 10vh;
 }
